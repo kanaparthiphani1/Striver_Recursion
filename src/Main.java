@@ -18,7 +18,10 @@ public class Main {
 //        Fibanocci f =new Fibanocci();
 //        System.out.println(f.nthFibanoci(8));
 
-        Subsequences s = new Subsequences();
-        s.printAllSubsequences(new int[]{1,2,3}, new ArrayList<Integer>(),0);
+//        Subsequences s = new Subsequences();
+//        s.printAllSubsequences(new int[]{1,2,3}, new ArrayList<Integer>(),0);
+
+        SubwithsumK k  =new SubwithsumK();
+        k.subwithsumk(new int[]{1,2,3,4,5},new ArrayList<Integer>(),6,0,0);
     }
 }
