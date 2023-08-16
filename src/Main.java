@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
@@ -14,7 +15,10 @@ public class Main {
 //        Palindrome p = new Palindrome();
 //        System.out.println(p.isPalindrome(new int[]{1,2,2,2,1},0));
 
-        Fibanocci f =new Fibanocci();
-        System.out.println(f.nthFibanoci(8));
+//        Fibanocci f =new Fibanocci();
+//        System.out.println(f.nthFibanoci(8));
+
+        Subsequences s = new Subsequences();
+        s.printAllSubsequences(new int[]{1,2,3}, new ArrayList<Integer>(),0);
     }
 }
