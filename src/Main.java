@@ -11,7 +11,10 @@ public class Main {
 //          r.reverseArray(arr,0);
 //        System.out.println(Arrays.toString(arr));
 
-        Palindrome p = new Palindrome();
-        System.out.println(p.isPalindrome(new int[]{1,2,2,2,1},0));
+//        Palindrome p = new Palindrome();
+//        System.out.println(p.isPalindrome(new int[]{1,2,2,2,1},0));
+
+        Fibanocci f =new Fibanocci();
+        System.out.println(f.nthFibanoci(8));
     }
 }
