@@ -30,9 +30,14 @@ public class Main {
 //        CountSubWithK c = new CountSubWithK();
 //        System.out.println(c.subwithsumk(new int[]{1,2,3,4,5},new ArrayList<Integer>(),6,0,0));
 
-        MergeSort m = new MergeSort();
-        int[] arr = new int[]{3,1,2,4,1,5,6,2,4};
-        m.mergeSort(arr,0,8);
+//        MergeSort m = new MergeSort();
+//        int[] arr = new int[]{3,1,2,4,1,5,6,2,4};
+//        m.mergeSort(arr,0,8);
+//        System.out.println(Arrays.toString(arr));
+
+        QuickSort q = new QuickSort();
+        int[] arr = new int[]{3,1,2,4};
+        q.quickSort(arr,0,3);
         System.out.println(Arrays.toString(arr));
     }
 }
