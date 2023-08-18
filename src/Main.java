@@ -21,7 +21,18 @@ public class Main {
 //        Subsequences s = new Subsequences();
 //        s.printAllSubsequences(new int[]{1,2,3}, new ArrayList<Integer>(),0);
 
-        SubwithsumK k  =new SubwithsumK();
-        k.subwithsumk(new int[]{1,2,3,4,5},new ArrayList<Integer>(),6,0,0);
+//        SubwithsumK k  =new SubwithsumK();
+//        k.subwithsumk(new int[]{1,2,3,4,5},new ArrayList<Integer>(),6,0,0);
+
+//        PrintOneSubWithK p = new PrintOneSubWithK();
+//        p.subwithsumk(new int[]{1,2,3,4,5},new ArrayList<Integer>(),6,0,0);
+
+//        CountSubWithK c = new CountSubWithK();
+//        System.out.println(c.subwithsumk(new int[]{1,2,3,4,5},new ArrayList<Integer>(),6,0,0));
+
+        MergeSort m = new MergeSort();
+        int[] arr = new int[]{3,1,2,4,1,5,6,2,4};
+        m.mergeSort(arr,0,8);
+        System.out.println(Arrays.toString(arr));
     }
 }
